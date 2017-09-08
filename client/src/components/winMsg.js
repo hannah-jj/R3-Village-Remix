@@ -5,7 +5,7 @@ const WinMsg = ({msg})  => {
 	return (
 		<div>
 			<h1>Thank you for {msg}!!!</h1>
-			<img style={{width: 820, display: 'inline-block'}} src='won.jpg' alt='secret' />
+			<img style={{width: 820, display: 'inline-block'}} src='https://s3.us-east-2.amazonaws.com/r3-village/won.jpg' alt='secret' />
 		</div>
 	);
 };
