@@ -8,10 +8,12 @@
          "Strict-Transport-Security": "max-age=7776000"
      }
  },
- "proxies":{
-        "/api/":{
-            "origin":"https://r3api.herokuapp.com/"
-        }
+"proxy": {
+    "/api": {
+      "target": "<url>",
+      "ws": true
+      // ...
     }
+  }
 
 }
