@@ -1,6 +1,8 @@
+const API_URL = "http://r3api.herokuapp.com/";
+
 export default class VillageAPI {
     static getInfo(url) {
-        return fetch(url, {
+        return fetch(API_URL + url, {
             method: "GET",
             headers: {
                 'Accepts': 'application/json',
@@ -12,7 +14,7 @@ export default class VillageAPI {
     }
 
     static addInfo(url, info) {
-        return fetch(url, {
+        return fetch(API_URL + url, {
             method: "POST",
             headers: {
                 'Accepts': 'application/json',
@@ -25,7 +27,7 @@ export default class VillageAPI {
     }
 
     static updateInfo(url, info) {
-        return fetch(url, {
+        return fetch(API_URL + url, {
             method: "PATCH",
             headers: {
                 'Accepts': 'application/json',
