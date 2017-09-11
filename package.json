@@ -11,15 +11,13 @@
     "react-router-dom": "^4.1.2",
     "react-scripts": "1.0.10",
     "redux": "^3.7.2",
-    "redux-thunk": "^2.2.0",
-    "webpack": "^3.5.6"
+    "redux-thunk": "^2.2.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject",
-    "webpack": "webpack"
+    "eject": "react-scripts eject"
   },
   "devDependencies": {
     "colors.css": "^3.0.0"

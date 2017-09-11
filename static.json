@@ -10,7 +10,7 @@
  },
 "proxy": {
     "/api": {
-      "target": "<url>",
+      "target": "https://r3-village.herokuapp.com",
       "ws": true
       // ...
     }
