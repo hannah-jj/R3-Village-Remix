@@ -2,9 +2,8 @@ export default class VillageAPI {
     static getInfo(url) {
         return fetch(url, {
             method: "GET",
-            mode: 'cors', 
             headers: {
-                // 'Accepts': 'application/json',
+                'Accepts': 'application/json',
                 'Content-Type': 'application/json'
             },
         })
@@ -15,9 +14,8 @@ export default class VillageAPI {
     static addInfo(url, info) {
         return fetch(url, {
             method: "POST",
-            mode: 'cors', 
             headers: {
-                // 'Accepts': 'application/json',
+                'Accepts': 'application/json',
                 'Content-Type': 'application/json'
             },
             body: JSON.stringify( info )
@@ -29,9 +27,8 @@ export default class VillageAPI {
     static updateInfo(url, info) {
         return fetch(url, {
             method: "PATCH",
-            mode: 'cors', 
             headers: {
-                // 'Accepts': 'application/json',
+                'Accepts': 'application/json',
                 'Content-Type': 'application/json'
             },
             body: JSON.stringify(info)
